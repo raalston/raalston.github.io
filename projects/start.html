@@ -58,7 +58,7 @@
               
               infoWindow.setContent('Location Found! ' + address) ;
               
-              $.getJSON('https://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyAt3NTWp2aJ5XQLeqQUpQc_SixIM8WcPM0&address= 8499 Mainstay Court Elk Grove Ca&electionId=2000',
+              $.getJSON('https://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyAt3NTWp2aJ5XQLeqQUpQc_SixIM8WcPM0&address=' + address + '&electionId=2000',
           function(outputJson){
 
 
